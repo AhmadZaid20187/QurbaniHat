@@ -75,7 +75,7 @@ const CardInfo = ({ animal }) => {
                 </div>
 
                 {/* Button */}
-                <Link href={`/all-animals/${animal._id}`}>
+                <Link href={`/all-animals/${animal.id}`}>
                     <Button className='w-full bg-blue-500 hover:bg-blue-800 text-white rounded-xl'>
                         See Full Details
                     </Button>
