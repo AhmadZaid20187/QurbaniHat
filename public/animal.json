@@ -9,7 +9,7 @@
         "age": 3,
         "location": "Bogura",
         "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural খাবার.",
-        "image": "/public/cow-1.webp",
+        "image": "/cow-1.webp",
         "category": "Large Animal"
     },
     {
@@ -22,7 +22,7 @@
         "age": 4,
         "location": "Rajshahi",
         "description": "High-quality Sahiwal breed with strong body and ভালো মাংস.",
-        "image": "/public/cow-2.webp",
+        "image": "/cow-2.webp",
         "category": "Large Animal"
     },
     {
@@ -35,7 +35,7 @@
         "age": 5,
         "location": "Dhaka",
         "description": "Large cow with excellent health and proper feeding condition.",
-        "image": "/public/cow-3.webp",
+        "image": "/cow-3.webp",
         "category": "Large Animal"
     },
     {
@@ -48,7 +48,7 @@
         "age": 3,
         "location": "Chattogram",
         "description": "Famous Bangladeshi breed with strong immunity and tasty meat.",
-        "image": "/public/cow-4.webp",
+        "image": "/cow-4.webp",
         "category": "Large Animal"
     },
     {
@@ -61,7 +61,7 @@
         "age": 2,
         "location": "Mymensingh",
         "description": "Small-sized deshi cow, budget-friendly and healthy.",
-        "image": "/public/cow-5.webp",
+        "image": "/cow-5.webp",
         "category": "Medium Animal"
     },
     {
@@ -74,7 +74,7 @@
         "age": 4,
         "location": "Khulna",
         "description": "Heavy-weight imported cross breed with বড় সাইজ.",
-        "image": "/public/cow-6.jpg",
+        "image": "/cow-6.jpg",
         "category": "Large Animal"
     },
     {
@@ -87,7 +87,7 @@
         "age": 3,
         "location": "Sylhet",
         "description": "Strong and সুন্দর red color cow, ভালো quality meat.",
-        "image": "/public/cow-7.jpg",
+        "image": "/cow-7.jpg",
         "category": "Large Animal"
     },
     {
@@ -100,7 +100,7 @@
         "age": 3,
         "location": "Rangpur",
         "description": "Medium-large cow with ভালো health and সুন্দর structure.",
-        "image": "/public/cow-8.jpg",
+        "image": "/cow-8.jpg",
         "category": "Large Animal"
     },
     {
@@ -113,7 +113,7 @@
         "age": 3,
         "location": "Barishal",
         "description": "Black color cow with strong build and healthy feeding.",
-        "image": "/public/cow-9.jpg",
+        "image": "/cow-9.jpg",
         "category": "Large Animal"
     },
     {
@@ -126,7 +126,7 @@
         "age": 4,
         "location": "Dhaka",
         "description": "Premium hybrid cow with excellent size and meat quality.",
-        "image": "/public/cow-10.jpg",
+        "image": "/cow-10.jpg",
         "category": "Large Animal"
     }
 ]
