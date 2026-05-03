@@ -35,7 +35,7 @@ export default function SignUpPage() {
             toast.error(error.message || 'Something went wrong!', {
                 position: 'top-center',
                 style: {
-                    background: '#3b82f6', // blue-500
+                    background: '#Ffa2a2',
                     color: '#fff',
                     borderRadius: '8px',
                     fontSize: '14px',
@@ -45,7 +45,7 @@ export default function SignUpPage() {
             toast.success('Account created successfully!', {
                 position: 'bottom-center',
                 style: {
-                    background: '#3b82f6', // blue-500
+                    background: '#3b82f6',
                     color: '#fff',
                     borderRadius: '8px',
                     fontSize: '14px',
