@@ -14,6 +14,7 @@ import {
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import toast, { Toaster } from "react-hot-toast";
+import { GrGoogle } from "react-icons/gr";
 
 export default function SignUpPage() {
 
@@ -51,9 +52,17 @@ export default function SignUpPage() {
                     fontSize: '14px',
                 },
             });
-            router.push('/');
+            router.push('/signin');
         }
     };
+
+    const handlGoogleSignIn = async () => {
+        await authClient.signIn.social({
+            provider: 'google'
+        })
+    }
+
+
     return (
         <>
             <Toaster />
@@ -136,6 +145,10 @@ export default function SignUpPage() {
                         </Link>
                     </div>
                 </Form>
+
+                <p className="text-center">Or</p>
+
+                <Button onClick={handlGoogleSignIn} variant="outline" className={'w-full bg-blue-500 text-white'} ><GrGoogle /> Sign In With Google</Button>
 
 
             </Card>
