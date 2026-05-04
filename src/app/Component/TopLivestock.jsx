@@ -4,7 +4,11 @@ import Link from 'next/link';
 import { Button } from '@heroui/react';
 
 const TopLivestock = async () => {
-    const res = await fetch("http://localhost:3000/animal.json")
+    const res = await fetch(`${process.env.BETTER_AUTH_URL}/animal.json`,
+        {
+            cache: 'no-store'
+        }
+    )
     const animal = await res.json()
     const topAnimals = animal.slice(0, 8)
     console.log(topAnimals)
