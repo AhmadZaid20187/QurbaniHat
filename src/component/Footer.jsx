@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='bg-blue-500 flex flex-col items-center text-white space-y-3'>
                 <div className='flex items-center container mx-auto py-20'>
                     <div className='w-3xl'>
-                        <h2 className='text-6xl font-bold pb-4'>QurbaniHat</h2>
+                        <h2 className='text-6xl font-bold pb-4 text-red-400'>QurbaniHat</h2>
                         <p>Pakistan&apos;s trusted platform for booking premium Qurbani
                             livestock.<br /> Healthy, certified animals delivered to your doorstep
                             for Eid ul Adha.</p>

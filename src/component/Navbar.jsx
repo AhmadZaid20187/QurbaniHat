@@ -10,6 +10,9 @@ const Navbar = () => {
 
     const userData = authClient.useSession()
     const user = userData.data?.user
+
+
+
     const handleSignOut = async () => {
         await authClient.signOut();
     }
@@ -50,6 +53,17 @@ const Navbar = () => {
                                 }`}
                         >
                             All Animals
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="/profile"
+                            className={`px-4 py-2 rounded ${pathname === "/profile"
+                                ? "bg-blue-500 text-white"
+                                : ""
+                                }`}
+                        >
+                            Profile
                         </Link>
                     </li>
                 </ul>
