@@ -22,39 +22,81 @@ export default function SignInPage() {
     const router = useRouter();
 
     const onSubmit = async (e) => {
+
         e.preventDefault();
 
+
+
         const email = e.target.email.value;
+
         const password = e.target.password.value;
 
+
+
         const { data, error } = await authClient.signIn.email({
+
             email,
+
             password,
+
             callbackURL: "/"
-        });
+
+        })
+
+
+
+
+
+        console.log({ data, error })
+
+
 
         if (error) {
+
             toast.error(error.message || 'Something went wrong!', {
+
                 position: 'top-center',
+
                 style: {
+
                     background: '#Ffa2a2',
+
                     color: '#fff',
+
                     borderRadius: '8px',
+
                     fontSize: '14px',
+
                 },
+
             });
+
         } else {
-            toast.success('Signed in successfully!', {
+
+            toast.success('Account created successfully!', {
+
                 position: 'bottom-center',
+
                 style: {
+
                     background: '#3b82f6',
+
                     color: '#fff',
+
                     borderRadius: '8px',
+
                     fontSize: '14px',
+
                 },
+
             });
+
             router.push('/');
+
         }
+
+
+
     };
 
     const handlGoogleSignIn = async () => {
