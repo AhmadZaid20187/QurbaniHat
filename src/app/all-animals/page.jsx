@@ -3,7 +3,7 @@ import CardInfo from '../Component/CardInfo';
 
 const AllAnimals = async () => {
 
-    const res = await fetch("http://localhost:3000/animal.json",
+    const res = await fetch(`${process.env.BETTER_AUTH_URL}/animal.json`,
         {
             cache: 'no-store'
         }

@@ -9,7 +9,7 @@
         "age": 3,
         "location": "Bogura",
         "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural খাবার.",
-        "image": "/cow-1.webp",
+        "image": "https://tse3.mm.bing.net/th/id/OIP.QYUClu3mjyoLGZr0MTpC_gHaEr?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
         "category": "Large Animal"
     },
     {
@@ -22,7 +22,7 @@
         "age": 4,
         "location": "Rajshahi",
         "description": "High-quality Sahiwal breed with strong body and ভালো মাংস.",
-        "image": "/cow-2.webp",
+        "image": "https://media.istockphoto.com/id/1181681660/photo/close-up-of-cow-face-in-summer-pasture.jpg?s=170667a&w=0&k=20&c=70XykI3_hJNxLtktHdj3DQ2I9Ad1DI-j4lQ5_nlxC4Q=",
         "category": "Large Animal"
     },
     {
@@ -35,7 +35,7 @@
         "age": 5,
         "location": "Dhaka",
         "description": "Large cow with excellent health and proper feeding condition.",
-        "image": "/cow-3.webp",
+        "image": "https://media.istockphoto.com/id/881831758/photo/cows-in-a-farm-dairy-cows.jpg?s=170667a&w=0&k=20&c=ZRy85t464Fx1i6qLqwQs2HUb3gTlScPGLRkt09QkBto=",
         "category": "Large Animal"
     },
     {
@@ -48,7 +48,7 @@
         "age": 3,
         "location": "Chattogram",
         "description": "Famous Bangladeshi breed with strong immunity and tasty meat.",
-        "image": "/cow-4.webp",
+        "image": "https://cdn.pixabay.com/photo/2013/05/09/02/46/cow-109933_1280.jpg",
         "category": "Large Animal"
     },
     {
@@ -61,7 +61,7 @@
         "age": 2,
         "location": "Mymensingh",
         "description": "Small-sized deshi cow, budget-friendly and healthy.",
-        "image": "/cow-5.webp",
+        "image": "https://media.istockphoto.com/id/1477105269/photo/cow-head-profil-face-of-a-red-one-looking-eye-calm-and-friendly-expression-and-pale-blue.jpg?s=612x612&w=0&k=20&c=0ZrJ4BHjr52psfPtWOT5kuuZcS1WZVHdErQn_RRCpEI=",
         "category": "Medium Animal"
     },
     {
@@ -74,7 +74,7 @@
         "age": 4,
         "location": "Khulna",
         "description": "Heavy-weight imported cross breed with বড় সাইজ.",
-        "image": "/cow-6.jpg",
+        "image": "https://media.istockphoto.com/id/1201000719/photo/head-profil-of-a-calm-cow-and-a-blue-sky-background.jpg?s=170667a&w=0&k=20&c=X_j-zQFoSxJMtSO4_Ns2GszFWjyZCG5S7TRd1BbMN7I=",
         "category": "Large Animal"
     },
     {
@@ -87,7 +87,7 @@
         "age": 3,
         "location": "Sylhet",
         "description": "Strong and সুন্দর red color cow, ভালো quality meat.",
-        "image": "/cow-7.jpg",
+        "image": "https://i.pinimg.com/736x/47/39/3b/47393b6647145119780012836cf85f39.jpg",
         "category": "Large Animal"
     },
     {
@@ -100,7 +100,7 @@
         "age": 3,
         "location": "Rangpur",
         "description": "Medium-large cow with ভালো health and সুন্দর structure.",
-        "image": "/cow-8.jpg",
+        "image": "https://tse1.explicit.bing.net/th/id/OIP.ttDeM0huCbaTMucU2xV1owHaE-?r=0&w=506&h=340&rs=1&pid=ImgDetMain&o=7&rm=3",
         "category": "Large Animal"
     },
     {
@@ -113,7 +113,7 @@
         "age": 3,
         "location": "Barishal",
         "description": "Black color cow with strong build and healthy feeding.",
-        "image": "/cow-9.jpg",
+        "image": "https://media.istockphoto.com/id/1331751024/photo/cow-portrait-of-a-lovely-red-bovine-with-white-blaze-pink-nose-and-friendly-and-calm.jpg?s=612x612&w=0&k=20&c=kgJPbLTi-Mxz9bFdeq6OoEaRD6AVRWvX_iwIrdnhQdU=",
         "category": "Large Animal"
     },
     {
@@ -126,7 +126,7 @@
         "age": 4,
         "location": "Dhaka",
         "description": "Premium hybrid cow with excellent size and meat quality.",
-        "image": "/cow-10.jpg",
+        "image": "https://tse4.mm.bing.net/th/id/OIP.DzkYdj59gIDL4nteqc-CRgHaE7?r=0&w=509&h=339&rs=1&pid=ImgDetMain&o=7&rm=3",
         "category": "Large Animal"
     }
 ]

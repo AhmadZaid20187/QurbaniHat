@@ -8,7 +8,7 @@ import { FaArrowLeft } from 'react-icons/fa';
 
 const AnimalDetails = async ({ params }) => {
     const { id } = await params;
-    const res = await fetch("http://localhost:3000/animal.json",
+    const res = await fetch(`${process.env.BETTER_AUTH_URL}/animal.json`,
         {
             cache: 'no-store'
         }
