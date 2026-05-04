@@ -3,7 +3,8 @@ import CardInfo from '../Component/CardInfo';
 
 const AllAnimals = async () => {
 
-    const res = await fetch(`${process.env.BETTER_AUTH_URL}/animal.json`,
+    // const res = await fetch(`${process.env.BETTER_AUTH_URL}/animal.json`,
+    const res = await fetch("https://qurbani-hat-flax.vercel.app/animal.json",
         {
             cache: 'no-store'
         }

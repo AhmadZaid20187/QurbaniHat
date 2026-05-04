@@ -8,7 +8,8 @@ import { FaArrowLeft } from 'react-icons/fa';
 
 const AnimalDetails = async ({ params }) => {
     const { id } = await params;
-    const res = await fetch(`${process.env.BETTER_AUTH_URL}/animal.json`,
+    // const res = await fetch(`${process.env.BETTER_AUTH_URL}/animal.json`,
+    const res = await fetch("https://qurbani-hat-flax.vercel.app/animal.json",
         {
             cache: 'no-store'
         }

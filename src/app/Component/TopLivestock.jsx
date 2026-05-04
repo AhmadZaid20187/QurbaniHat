@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { Button } from '@heroui/react';
 
 const TopLivestock = async () => {
-    const res = await fetch(`${process.env.BETTER_AUTH_URL}/animal.json`,
+    // const res = await fetch(`${process.env.BETTER_AUTH_URL}/animal.json`,
+    const res = await fetch("https://qurbani-hat-flax.vercel.app/animal.json",
         {
             cache: 'no-store'
         }
